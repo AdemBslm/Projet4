@@ -27,6 +27,15 @@ a:hover {
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
 
+#commentaire-avis {
+    font-size: 25px;
+    font-style: italic;
+}
+
+#auteur-avis {
+    font-size: 15px;
+}
+
 .bloc {
     width: 100%;
     clear: both;
