@@ -1,3 +1,8 @@
+@import url("css/bootstrap.css");
+@import url("css/et-line.css");
+@import url("css/font-awesome.css");
+
+ 
 body {
     margin: 0;
     padding: 0;
@@ -780,7 +785,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #7B4C36;
+    background-color: #923403;
 }
 
 .tc-white {
@@ -788,7 +793,7 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #7B4C36;
+    background: #923403;
     color: #FFFFFF!important;
 }
 
@@ -857,13 +862,13 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -882,8 +887,8 @@ h4 {
         position: relative;
     }
     .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        padding-left: 20px;
+        padding-right: 20px;
     }
     .bloc-group,
     .bloc-group .bloc {
@@ -893,8 +898,8 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
 
